@@ -1,6 +1,6 @@
-# 🛡️ Threat Hunting Guide
+# Threat Hunting Guide
 
-## 🔍 Overview
+## Overview
 
 Threat hunting is the **proactive search** for threats that evade 
 traditional security tools. It involves forming hypotheses, analyzing 
@@ -9,7 +9,7 @@ intelligence and behavioral analytics.
 
 ---
 
-## ⚙️ Threat Hunting Process
+## Threat Hunting Process
 
 ### 1. Preparation
 - Define scope and objectives
@@ -49,23 +49,23 @@ intelligence and behavioral analytics.
 
 ---
 
-## 🔐 Key Concepts
+## Key Concepts
 
-### ✅ Log4j
+### Log4j
 Apache logging library vulnerable to **remote code execution** 
 (CVE-2021-44228). Known as **Log4Shell**, widely exploited in 2021.
 
-### ✅ TTP (Tactics, Techniques, Procedures)
+### TTP (Tactics, Techniques, Procedures)
 Used by attackers to describe how they operate. Tracked by the [MITRE 
 ATT&CK Framework](https://attack.mitre.org/).
 
-### ✅ SMB (Server Message Block)
+### SMB (Server Message Block)
 Protocol used for Windows file sharing. Can be abused for **lateral 
 movement** (e.g., EternalBlue → WannaCry).
 
 ---
 
-## 🧰 Common Tools
+## Common Tools
 
 | Type         | Tools                             |
 |--------------|-----------------------------------|
@@ -77,7 +77,7 @@ movement** (e.g., EternalBlue → WannaCry).
 
 ---
 
-## 📌 MITRE ATT&CK Examples
+## MITRE ATT&CK Examples
 
 | Tactic              | Technique               | Tool |
 |---------------------|--------------------------|------|
@@ -87,6 +87,6 @@ movement** (e.g., EternalBlue → WannaCry).
 
 ---
 
-> ✍️ Last updated: July 2025  
+> Last updated: July 2025  
 > Maintained by [Cyrus Lomibao](https://github.com/yourusername)
 
