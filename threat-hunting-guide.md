@@ -99,10 +99,10 @@ Edit
 
 This lineage helps identify abnormal or malicious behavior.
 
-### ⚠️ Why It Matters
+###  Why It Matters
 Attackers frequently abuse trusted processes to spawn malicious children. Hunting for unusual chains can reveal fileless malware, LOLBins, or lateral movement.
 
-### 🚩 Suspicious Examples
+###  Suspicious Examples
 
 | Parent           | Child               | Why It's Suspicious                         |
 |------------------|---------------------|----------------------------------------------|
